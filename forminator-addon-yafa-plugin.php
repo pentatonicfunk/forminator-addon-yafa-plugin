@@ -12,6 +12,12 @@
 //Direct Load
 define( 'FORMINATOR_ADDON_YAFA_VERSION', '1.0' );
 
+/**
+ * Make FORM with ID 260 have this addon auto connected
+ * it should go on form settings or any persistent storage you want
+ */
+define( 'FORMINATOR_ADDON_YAFA_AUTO_CONNECT_FORM_ID', 260 );
+
 function forminator_addon_yafa_url() {
 	return trailingslashit( plugin_dir_url( __FILE__ ) );
 }

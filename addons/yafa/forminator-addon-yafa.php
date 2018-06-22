@@ -24,10 +24,9 @@ final class Forminator_Addon_Yafa extends Forminator_Addon_Abstract {
 	protected $_form_hooks = 'Forminator_Addon_Yafa_Form_Hooks';
 
 	/**
-	 * Make FORM with ID 257 have this addon auto connected
-	 * it should go on form settings
+	 * shortcut
 	 */
-	const FORM_ID_TO_ACTIVATE = 260;
+	const FORM_ID_TO_ACTIVATE = FORMINATOR_ADDON_YAFA_AUTO_CONNECT_FORM_ID;
 
 	public function __construct() {
 		// late init to allow translation
